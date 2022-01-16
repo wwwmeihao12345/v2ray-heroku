@@ -1,0 +1,30 @@
+﻿{
+  "name": "qw",
+  "description": "ns",
+  "keywords": [
+    "gh"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/wwwmeihao12345/v2ray-heroku.git",
+  "repository": "https://github.com/wwwmeihao12345/v2ray-heroku.git",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
